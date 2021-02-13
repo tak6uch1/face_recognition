@@ -1,0 +1,10 @@
+.DS_Store
+*.dat
+*.bz2
+*.mp4
+*.jpg
+memo.txt
+build/
+image/
+video/
+dlib-19.21/
