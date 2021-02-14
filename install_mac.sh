@@ -8,11 +8,10 @@ brew install boost
 brew install boost-python
 brew install opencv
 brew install cmake
-
-pip3 install imutils
-
 brew install xquartz
 ln -s /opt/X11/include/X11 /usr/local/include/X11
+
+pip3 install imutils
 
 # Dlib
 #   Note: Check the latest version of dlib on http://dlib.net/
