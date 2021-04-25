@@ -26,7 +26,7 @@ int main (int argc, char **argv){
         cv::cvtColor(img, gray, cv::COLOR_BGRA2GRAY);
 
         // Cascade file for face detection
-        const string cascade_name = "/usr/local/Cellar/opencv/4.5.1_2/share/opencv4/lbpcascades/lbpcascade_frontalface.xml";;
+        const string cascade_name = "/usr/local/Cellar/opencv/4.5.2/share/opencv4/lbpcascades/lbpcascade_frontalface.xml";
         cv::CascadeClassifier cascade;
         cascade.load(cascade_name);
 
