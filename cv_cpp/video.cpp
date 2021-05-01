@@ -33,7 +33,7 @@ int main (int argc, char **argv){
         writer.open("output.mp4", fourcc, fps, cv::Size(width, height));
      
         // Cascade file for face detection
-        const string cascade_name = "/usr/local/Cellar/opencv/4.5.2/share/opencv4/lbpcascades/lbpcascade_frontalface.xml";
+        const string cascade_name = "/usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface.xml";
         cv::CascadeClassifier cascade;
         cascade.load(cascade_name);
     

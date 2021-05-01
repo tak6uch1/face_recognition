@@ -21,7 +21,7 @@ try:
     writer = cv2.VideoWriter('output.mp4', codec, fps, (width, height))
 
     # Cascade file for face detection
-    cascade_path = "/usr/local/Cellar/opencv/4.5.2/share/opencv4/lbpcascades/lbpcascade_frontalface.xml"
+    cascade_path = "/usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface.xml"
     cascade = cv2.CascadeClassifier(cascade_path)
 
     # Frame processing loop

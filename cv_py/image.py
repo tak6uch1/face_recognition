@@ -15,7 +15,7 @@ try:
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     # Cascade file for face detection
-    cascade_path = "/usr/local/Cellar/opencv/4.5.2/share/opencv4/lbpcascades/lbpcascade_frontalface.xml"
+    cascade_path = "/usr/local/share/opencv4/lbpcascades/lbpcascade_frontalface.xml"
     cascade = cv2.CascadeClassifier(cascade_path)
 
     # Detect faces
