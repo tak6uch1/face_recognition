@@ -24,6 +24,8 @@ sudo apt -yV install python3-numpy python3-scipy python3-matplotlib
 sudo apt -yV install libboost-all-dev
 sudo apt -yV install git
 
+sudo pip3 install imutils
+
 
 # OpenCV
 cd /usr/local
