@@ -28,7 +28,7 @@ sudo pip3 install imutils
 
 
 # OpenCV
-cd /usr/local
+pushd /usr/local
 sudo mkdir opencv4
 cd /usr/local/opencv4
 sudo git clone https://github.com/opencv/opencv.git
@@ -55,6 +55,7 @@ sudo make install
 
 # Dlib
 #   Note: Check the latest version of dlib on http://dlib.net/
+popd
 wget http://dlib.net/files/dlib-19.21.tar.bz2
 bunzip2 dlib-19.21.tar.bz2
 tar xf dlib-19.21.tar
