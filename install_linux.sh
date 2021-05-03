@@ -47,7 +47,7 @@ PYTHON3_EXECUTABLE=/usr/lib/python3.7 \
 PYTHON_INCLUDE_DIR=/usr/include/python3.7 \
 PYTHON_INCLUDE_DIR2=/usr/include/arm-linux-gnueabihf/python3.7m \
 PYTHON_LIBRARY=/usr/lib/arm-linux-gnueabihf/libpython3.7m.so \
-PYTHON3_NUMPY_INCLUDE_DIRS =/usr/lib/python3/dist-packages/numpy/core/include \
+PYTHON3_NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include \
 -S /usr/local/opencv4/opencv
 
 sudo make -j7
