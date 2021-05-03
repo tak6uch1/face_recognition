@@ -3,6 +3,7 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
+sudo apt-get -yV install git
 sudo apt-get -yV install build-essential
 sudo apt-get -yV install cmake
 sudo apt-get -yV install libeigen3-dev
@@ -19,12 +20,13 @@ sudo apt-get -yV install libopenexr-dev
 sudo apt-get -yV install libwebp-dev
 sudo apt-get -yV install libavresample-dev
 sudo apt-get -yV install libhdf5-dev
+sudo apt-get -yV install libboost-all-dev
 sudo apt-get -yV install libpython3-dev
 sudo apt-get -yV install python3-numpy python3-scipy python3-matplotlib
-sudo apt-get -yV install libboost-all-dev
-sudo apt-get -yV install git
+sudo apt-get -yV install python3-gi-cairo
 
-sudo pip3 install imutils
+pip3 install imutils
+pip3 install numpy --upgrade
 
 
 # OpenCV
