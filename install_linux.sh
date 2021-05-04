@@ -25,8 +25,9 @@ sudo apt-get -yV install libpython3-dev
 sudo apt-get -yV install python3-numpy python3-scipy python3-matplotlib
 sudo apt-get -yV install python3-gi-cairo
 
+pip3 install --upgrade pip
 pip3 install imutils
-pip3 install numpy --upgrade
+pip3 install --upgrade numpy
 
 
 # OpenCV
