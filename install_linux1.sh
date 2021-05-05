@@ -30,3 +30,4 @@ sudo apt-get -yV install python3-imaging
 sudo apt-get -yV install python3-pandas
 sudo apt-get -yV install python3-matplotlib
 sudo apt-get -yV install python3-gi-cairo
+
