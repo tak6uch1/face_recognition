@@ -26,6 +26,7 @@ sudo apt-get -yV install libhdf5-dev
 sudo apt-get -yV install libboost-all-dev
 sudo apt-get -yV install libpython3-dev
 sudo apt-get -yV install python3-numpy
+sudo apt-get -yV install python3-scipy
 sudo apt-get -yV install python3-imaging
 sudo apt-get -yV install python3-pandas
 sudo apt-get -yV install python3-matplotlib
