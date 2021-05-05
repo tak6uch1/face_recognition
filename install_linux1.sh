@@ -3,6 +3,9 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
+sudo pip3 install --upgrade pip
+sudo pip3 install imutils
+
 sudo apt-get -yV install git
 sudo apt-get -yV install build-essential
 sudo apt-get -yV install cmake
@@ -22,9 +25,8 @@ sudo apt-get -yV install libavresample-dev
 sudo apt-get -yV install libhdf5-dev
 sudo apt-get -yV install libboost-all-dev
 sudo apt-get -yV install libpython3-dev
-sudo apt-get -yV install python3-numpy python3-scipy python3-matplotlib
+sudo apt-get -yV install python3-numpy
+sudo apt-get -yV install python3-imaging
+sudo apt-get -yV install python3-pandas
+sudo apt-get -yV install python3-matplotlib
 sudo apt-get -yV install python3-gi-cairo
-
-pip3 install --upgrade pip
-pip3 install imutils
-pip3 install --upgrade numpy
