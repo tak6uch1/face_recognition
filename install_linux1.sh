@@ -3,8 +3,8 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
-sudo pip3 install --upgrade pip
-sudo pip3 install imutils
+pip3 install --upgrade pip
+pip3 install imutils
 
 sudo apt-get -yV install git
 sudo apt-get -yV install build-essential
